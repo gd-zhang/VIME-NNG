@@ -8,9 +8,11 @@ git submodule add -f git@github.com:openai/vime.git sandbox/vime
 touch sandbox/__init__.py
 ```
 
-Then you can do the following:
-- Execute VIME+BBB on the DoublePendulumEnvX environment via `python sandbox/vime/experiments/run_trpo_bbb.py`.
-- Execute VIME+Noisy K-FAC on the DoublePendulumEnvX environment via `python sandbox/vime/experiments/run_trpo_nng.py`.
+## Example
+```
+python sandbox/vime/experiments/run_trpo_bbb.py
+python sandbox/vime/experiments/run_trpo_nng.py
+```
 
 
 ## Citation
